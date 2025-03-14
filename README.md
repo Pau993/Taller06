@@ -1,6 +1,6 @@
 # Crear un sistema CRUD para gestionar propiedades 💻
 
-El propósito de este proyecto es desarrollar un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para la gestión de propiedades inmobiliarias. La aplicación web permitirá a los usuarios administrar anuncios de propiedades de manera eficiente a través de una interfaz intuitiva y un backend robusto.
+El propósito de este proyecto es desarrollar un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para la gestión de propiedades inmobiliarias con un sistema ssl (HTTPS). La aplicación web permitirá a los usuarios administrar anuncios de propiedades de manera eficiente y segura a través de una interfaz intuitiva y un backend robusto.
 
 Los usuarios podrán:
 
@@ -12,7 +12,9 @@ Los usuarios podrán:
 
 ✅ Eliminar propiedades que ya no estén disponibles.
 
-Para lograr esto, la aplicación se desarrollará con Spring Boot para el backend, MySQL como base de datos, y un frontend en HTML, JavaScript y AJAX (o Fetch API) para una experiencia de usuario fluida. Además, se desplegará en AWS, asegurando escalabilidad y disponibilidad.
+✅ Conectarse de forma segura usando Https.
+
+Para lograr esto, la aplicación se desarrollará con Spring Boot para el backend, con llaves en formato PKCS12, MySQL como base de datos, y un frontend en HTML, JavaScript y AJAX (o Fetch API) para una experiencia de usuario fluida. Además, se desplegará en AWS, asegurando escalabilidad y disponibilidad.
 
 ## Componentes del Proyecto.
 
@@ -46,7 +48,7 @@ Este diagrama representa la arquitectura de un sistema web de gestión de propie
 * Usuario (User)
 
 Un usuario accede al sistema a través de un navegador web (Browser) ingresando la URL de la aplicación:
-http://ec2-52-91-91-122.compute-1.amazonaws.com:8080.
+https://ec2-52-91-91-122.compute-1.amazonaws.com:8080.
 
 * Aplicación Web en AWS (PropertyController & Property)
 
@@ -146,9 +148,9 @@ Las siguientes instrucciones le permitirán obtener una copia del proyecto en fu
 Realice los siguientes pasos para clonar el proyecto en su máquina local.
 
 ```
-git clone https://github.com/Pau993/Taller05.git
-cd Taller05
-git checkout Taller05
+git clone https://github.com/Pau993/Taller06.git
+cd Taller06
+git checkout Taller06
 mvn clean compile
 ```
 
@@ -163,7 +165,7 @@ mvn exec:java -Dexec.mainClass="com.example.Application"
 
 El anterior comando limpiará las contrucciones previas, compilará y empaquetará el código en un jar y luego ejecutará la aplicación.
 
-Diríjase a su navegador de preferencia y vaya a la siguiente dirección: [http://localhost:35000/](http://ec2-52-91-91-122.compute-1.amazonaws.com:8080) para ver la aplicación en funcionamiento.
+Diríjase a su navegador de preferencia y vaya a la siguiente dirección: [https://localhost:35000/](https://ec2-52-91-91-122.compute-1.amazonaws.com:8080) para ver la aplicación en funcionamiento.
 
 ## Ejecutando las pruebas ⚙️
 
