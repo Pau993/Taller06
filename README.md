@@ -231,7 +231,7 @@ Verifica que la respuesta tenga un estado 204 No Content, lo que indica que la p
 
 ## Muestra de la aplicación 🧩
 
-https://github.com/user-attachments/assets/53671196-9b61-4c81-a61a-8d86f9b5cca9
+https://github.com/user-attachments/assets/827ebde9-8c01-4186-b4bb-21a679f9f785
 
 ## Autores ✒️
 
